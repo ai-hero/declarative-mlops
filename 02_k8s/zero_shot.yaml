@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: zero-shot-classifier
-        image: 635605213996.dkr.ecr.us-east-1.amazonaws.com/declarative-mlops-falcon:8c23375
+        image: 635605213996.dkr.ecr.us-east-2.amazonaws.com/declarative-mlops-falcon:8c23375
         ports:
         - containerPort: 8080
 ---        
