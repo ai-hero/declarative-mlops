@@ -10,5 +10,5 @@ provider "aws" {
 data "aws_availability_zones" "available" {}
 
 locals {
-  cluster_name = "declarative-mlops"
+  cluster_name = "declarative-mlops-staging"
 }
