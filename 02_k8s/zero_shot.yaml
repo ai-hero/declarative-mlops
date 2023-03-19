@@ -23,7 +23,7 @@ spec:
           initialDelaySeconds: 10
           periodSeconds: 10
           httpGet:
-            path: /health_check
+            path: /
             port: 8080
 ---        
 apiVersion: v1
